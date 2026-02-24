@@ -5,9 +5,8 @@ class QuestionRobot:
         self.answer = answer
         self.category = category
 
+    def check_answer(self, user, correct):
+        return user == correct
 
-def user_input(name):
+def check_user_input(name):
     return name.strip() != ""
-
-def check_answer(user, correct):
-    return user == correct

@@ -1,6 +1,15 @@
+# Normally, import will load a package from a standard location
+# which, when we use venv will be the venv folder or for conda
+# the conda location
 import streamlit as st
 import pandas as pd
-from quiz_robot import QuestionRobot, check_name, check_answer
+# But when we want to load code we wrote ourselves, we can 
+# load it from the current directory but if we want to load
+# from another location, we need to specify a path
+from quiz_robot import QuestionRobot, check_user_input
+
+# To run the sample, run:
+# streamlit run app.py
 
 st.title("Welcome to my App")
 
@@ -9,7 +18,7 @@ user_input = st.text_input("Your Name")
 if user_input:
     st.write(f"Hello, {user_input.title()}")
 
-if user_input and check_name(user_input):
+if user_input and check_user_input(user_input):
      # LOAD QUESTIONS
     try:
         df = pd.read_csv("data/questions.csv")
@@ -41,7 +50,7 @@ if user_input and check_name(user_input):
         choice = st.radio("Pick one:", q.options)
 
         if st.button("Submit"):
-            if check_answer(choice, q.answer):
+            if q.check_answer(choice, q.answer):
                 st.success("Correct!")
                 st.session_state.score += 1
             else:
