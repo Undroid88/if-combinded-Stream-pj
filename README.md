@@ -25,4 +25,5 @@ Screens included in the Figma design:
 #### Above you can see that the Main Menu doesnt ask for a name rather just asks to click the button to begin the quiz
  * this was made as i thought as the app required a name, I thought of other ways i can create/design my quiz and one was through making it anonymous
  * Therefore, my figma design quiz didnt ask for a name to begin a quiz just like how an anonymous form wouldnt require one
-### I chose to do this because i thought this would also help people answer the questions comfortably as they wouldnt need to worry if people knew what answers they got as it would be anonymous - although again this was made just for people to learn more about their role in a comfortable safe environment.
+
+I chose to do this because i thought this would also help people answer the questions comfortably as they wouldnt need to worry if people knew what answers they got as it would be anonymous - although again this was made just for people to learn more about their role in a comfortable safe environment.

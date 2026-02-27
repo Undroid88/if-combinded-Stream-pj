@@ -10,3 +10,5 @@ class QuestionRobot:
 
 def check_user_input(name):
     return name.strip() != ""
+
+
