@@ -200,4 +200,5 @@ Overall, this project improved my confidence in Python, testing, version control
 ### Links:
 Figma: https://www.figma.com/design/gErTTKRUDsx6SzQKSBuN5q/Ins-Project---S2?node-id=7-5&p=f&t=b2gwsuUTx54PvE37-0
 
-GitHub: 
+GitHub: https://github.com/Undroid88/if-combinded-Stream-pj
+
