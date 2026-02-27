@@ -11,7 +11,7 @@ from quiz_robot import QuestionRobot, check_user_input
 # To run the sample, run:
 # streamlit run app.py
 
-st.title("Welcome to my App")
+st.title("Welcome to my Quiz App")
 
 # ASK FOR NAME
 user_input = st.text_input("Your Name")
