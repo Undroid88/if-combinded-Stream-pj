@@ -27,3 +27,4 @@ Screens included in the Figma design:
  * Therefore, my figma design quiz didnt ask for a name to begin a quiz just like how an anonymous form wouldnt require one
 
 I chose to do this because i thought this would also help people answer the questions comfortably as they wouldnt need to worry if people knew what answers they got as it would be anonymous - although again this was made just for people to learn more about their role in a comfortable safe environment.
+

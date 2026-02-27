@@ -11,12 +11,12 @@ from quiz_robot import QuestionRobot, check_user_input
 # To run the sample, run:
 # streamlit run app.py
 
-st.title("Welcome to my Quiz App")
+st.title("⭐ Welcome to my Quiz App ⭐")
 
 # ASK FOR NAME
 user_input = st.text_input("Your Name")
 if user_input:
-    st.write(f"Hello, {user_input.title()}")
+    st.write(f"Hello, {user_input.title()}⭐")
 
 if user_input and check_user_input(user_input):
      # LOAD QUESTIONS
